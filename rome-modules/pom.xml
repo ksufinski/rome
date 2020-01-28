@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>rome-modules</artifactId>
-    <version>1.12.51</version>
+    <version>1.12.54-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>rome-modules</name>
