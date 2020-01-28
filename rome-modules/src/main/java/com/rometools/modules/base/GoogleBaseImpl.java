@@ -301,6 +301,9 @@ public class GoogleBaseImpl implements GoogleBase {
     /** string:product_type */
     private String[] productTypes;
 
+    /** string:google_product_category */
+    private String[] googleProductCategories;
+
     /** string:programming_language */
     private String[] programmingLanguages;
 
@@ -942,6 +945,17 @@ public class GoogleBaseImpl implements GoogleBase {
     }
 
     @Override
+    public void setGoogleProductCategories(final String[] googleProductCategories) {
+        this.googleProductCategories = googleProductCategories;
+    }
+
+    @Override
+    public String[] getGoogleProductCategories() {
+        return googleProductCategories == null ? new String[0] : googleProductCategories;
+    }
+
+
+    @Override
     public void setProgrammingLanguages(final String[] programmingLanguages) {
         this.programmingLanguages = programmingLanguages;
     }
@@ -1340,6 +1354,7 @@ public class GoogleBaseImpl implements GoogleBase {
         setPriceType(source.getPriceType());
         setProcessorSpeed(source.getProcessorSpeed());
         setProductTypes((String[]) arrayCopy(source.getProductTypes()));
+        setGoogleProductCategories((String[]) arrayCopy(source.getGoogleProductCategories()));
         setPropertyTypes((String[]) arrayCopy(source.getPropertyTypes()));
         setPublicationName(source.getPublicationName());
         setPublicationVolume(source.getPublicationVolume());

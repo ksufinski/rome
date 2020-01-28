@@ -30,4 +30,7 @@ public interface GoogleBase extends Module, Article, Course, Event, Job, Person,
         Housing {
     /** This is the URI for the Google Base Schema. */
     public static final String URI = "http://base.google.com/ns/1.0";
+
+    public void setGoogleProductCategories(String[] googleProductCategories);
+    public String[] getGoogleProductCategories();
 }

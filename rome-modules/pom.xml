@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.rometools</groupId>
         <artifactId>rome-parent</artifactId>
-        <version>1.12.3-SNAPSHOT</version>
+        <version>1.12.2</version>
     </parent>
 
     <artifactId>rome-modules</artifactId>
@@ -90,5 +90,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <scm>
+        <connection>scm:git:https://github.com/ksufinski/rome.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/ksufinski/rome.git</developerConnection>
+        <url>https://github.com/ksufinski/rome</url>
+    </scm>
 
 </project>
