@@ -99,4 +99,12 @@
       <tag>rome-modules-1.12.51</tag>
   </scm>
 
+    <repositories>
+        <repository>
+            <id>ardas-nexus</id>
+            <url>http://devel.ardas.dp.ua/nexus/content/repositories/ardas-maven</url>
+        </repository>
+    </repositories>
+
+
 </project>
