@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>rome-modules</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>rome-modules</name>
@@ -96,7 +96,7 @@
         <connection>scm:git:https://github.com/ksufinski/rome.git</connection>
         <developerConnection>scm:git:https://github.com/ksufinski/rome.git</developerConnection>
         <url>https://github.com/ksufinski/rome</url>
-      <tag>rome-modules-1.12.51</tag>
+      <tag>rome-modules-1.1</tag>
   </scm>
 
 </project>
