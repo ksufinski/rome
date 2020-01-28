@@ -94,7 +94,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/ksufinski/rome.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/ksufinski/rome.git</developerConnection>
+        <developerConnection>scm:git:https://git@github.com/ksufinski/rome.git</developerConnection>
         <url>https://github.com/ksufinski/rome</url>
       <tag>rome-modules-1.12.51</tag>
   </scm>
