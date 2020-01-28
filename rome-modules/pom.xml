@@ -105,6 +105,13 @@
             <url>http://devel.ardas.dp.ua/nexus/content/repositories/ardas-maven</url>
         </repository>
     </repositories>
+    <distributionManagement>
+        <repository>
+            <id>ardas-nexus</id>
+            <url>http://devel.ardas.dp.ua/nexus/content/repositories/ardas-maven</url>
+        </repository>
+    </distributionManagement>
+
 
 
 </project>
